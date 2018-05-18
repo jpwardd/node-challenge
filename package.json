@@ -1,0 +1,22 @@
+{
+  "name": "node-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "M. Hatch",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.86.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^22.4.3",
+    "superagent": "^3.8.3",
+    "supertest": "^3.1.0"
+  }
+}
